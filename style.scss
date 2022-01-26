@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.weather {
+    position: relative;
+    text-emphasis: center;
+    color: white;
+    margin: 20px;
+
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.pict {
+    width: 50%;
+    height: 350px;
+    border-radius: 6px;
+
+}
