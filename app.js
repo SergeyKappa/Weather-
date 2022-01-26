@@ -20,8 +20,9 @@ fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityS}&units=metric&A
        ">`;
     
     document.querySelector('.temp').innerHTML = Math.round(data.main.temp)
-    
     document.querySelector('.humidity').innerHTML = data.main.humidity
+    document.querySelector('.pressure').innerHTML = data.main.pressure
+
     document.querySelector('.wind').innerHTML = data.wind.speed
    
        
